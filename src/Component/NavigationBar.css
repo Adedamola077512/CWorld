@@ -1,0 +1,80 @@
+.vec {
+    background-color: #ffe414;
+    height: 50px;
+}
+.home {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font: bold;
+    font-weight: 500;
+}
+.navbar-nav {
+    gap: 40px;
+    text-decoration: none;
+}
+.CWorld{
+    color: black;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36.31px;
+    letter-spacing: 0%;
+}
+
+/* General Button Styling */
+.contact-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    
+  }
+  
+  /* Button hover effect */
+  .contact-btn:hover {
+    background-color: yellow;
+    color: black;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive button for screens smaller than 600px */
+  @media (max-width: 600px) {
+   .contact-btn {
+      width: 100%;
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+  
+  /* Full width on smaller screens */
+  @media (max-width: 991px) {
+    .contact-btn {
+      width: 100%;
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    /* For screens smaller than 600px */
+    .vec {
+        height: 50px;
+        border-bottom: none;
+    }
+    .primary{
+        width: 100%;
+        margin: 10px 0;
+        display: none;
+    }
+
+    .navbar-nav{
+        gap: 10px;
+        margin-top: 10px;
+    }
+}
+

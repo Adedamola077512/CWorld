@@ -1,0 +1,61 @@
+.creativity {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60.51px;
+    letter-spacing: 0%;
+}
+.lorem {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0%;
+
+}
+.view{
+    background-color: yellow;
+    border: none;
+    color: black;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    /* margin-top: 20px; */
+}
+.Happy {
+    background-color: black;
+    color: white;
+    width: 450px;
+    height: 280px;
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.img2 {
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .Meets{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .creativity {
+        font-size: 32px;
+        letter-spacing: 0px;
+        line-height: 33.33px;
+        font-weight: 500px;
+        font: bolder;
+    }
+    .lorem {
+        font-size: 13.2px;
+        line-height: 18.9px;
+        font: bold;
+    }
+    .Happy {
+        width: 100%;
+    }
+    .img2 {
+        margin-top: 30px;
+    }
+}

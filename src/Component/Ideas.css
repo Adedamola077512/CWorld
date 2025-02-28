@@ -1,0 +1,86 @@
+.idea-card{
+    background-color: #ffffcc;
+    padding-top: 30px;
+    margin-top: 50px;
+    height: 600px;
+}
+.card-ui {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.bring {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60.51px;
+    letter-spacing: 0%;
+}
+.UIUX{
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.Development{
+    /* background-color: yellow; */
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+.read-more{
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;  
+    background-color: #ffffcc;
+    border: 1px solid black; 
+}
+.UIUX:hover {
+    background-color: yellow;
+}
+.UIUX:hover .read-more{
+    background-color: black;
+    color: white;
+}
+.read-more:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+.create {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24.2px;
+    letter-spacing: 0%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .card-ui{
+        flex-direction: column;
+        align-items: center;
+    }
+    .craft{
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .bring{
+        font-size: 35px;
+    }
+    .idea-card {
+        height: 5%;
+        padding-bottom: 50px;
+    }
+    .UIUX:hover {
+        background-color: yellow;
+    }
+    .UIUX:hover .read-more{
+        background-color: black;
+        color: white;
+    }
+}

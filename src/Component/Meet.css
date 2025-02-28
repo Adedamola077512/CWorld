@@ -1,0 +1,75 @@
+
+.minds {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60.51px;
+  letter-spacing: 0%;
+}
+.lies {
+  font-family: Inter;
+font-weight: 400;
+font-size: 20px;
+line-height: 24.2px;
+letter-spacing: 0%;
+
+}
+
+.team-member-card {
+  padding-top: 10px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.team-member-card:hover {
+  transform: scale(1.05);
+}
+
+.team-member-image {
+
+  /* border-radius: 50%; */
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.card-text{
+  /* margin-left: 10px; */
+}
+.social-icons {
+
+  margin-top: 10px;
+}
+
+.social-icon {
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.custom-navigation-button {
+  color: #007bff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+  .meet-container {
+    padding: 50px;
+  }
+  .strength{
+     margin-top: 80px;
+  }
+  .minds {
+    font-size: 35px;
+    font: bold;
+    line-height: 40.51px;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}
+
+

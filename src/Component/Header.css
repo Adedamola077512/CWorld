@@ -1,0 +1,128 @@
+.into{
+    background-color: #ffffcc;
+}
+.div1{
+    width: 350px;
+    margin-right: 50px;
+    height: 295px;
+    padding-left: 60px;
+    padding-top: 50px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    background-color: black;
+}
+.man{
+    background-color: yellow;
+    width: 220px;
+    height: 200px;
+    /* margin: auto; */
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    /* border-bottom-left-radius: 10px; */
+    position: absolute;
+}
+.img1{
+    position: relative;
+    width: 212px;
+    height: 200px;
+    /* border-radius: 10; */
+    border-bottom-left-radius: 50px;
+    /* margin-top: -20px;/ */
+    object-fit: fix;
+}
+.launch {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 67.77px;
+    letter-spacing: 0%;
+}
+.team {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0%;
+}
+.Get-start {
+    background-color: yellow;
+    border: none;
+    font: bold;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    width: 150px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.Get-start:hover{
+    background-color: #f0f0f0;
+    color: yellow;
+    border: 2px solid yellow;
+}
+.we-are-in{
+    font-family: Inter;
+    /* font-weight: 600; */
+    font-size: 13px;
+    line-height: 5px;
+    text-align: center;
+}
+.social {
+    background-color: black;
+    width: 140px;
+    height: 85px;
+    padding: 6px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 15px;
+    color: 100px;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+}
+.div2 {
+    width: 85px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: -45px;
+    text-align: center;
+    margin-left: -30px;
+    line-height: 15px;
+    background: rgba(255, 250, 250, 1);
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 600px) {
+    .Digital{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .into{
+        margin-top: -30px;
+    }
+    .launch {
+        font-size: 39px;
+        line-height: 42.2px;
+    }
+    .team {
+        font-size: 14px;
+        color: black;
+        /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+        line-height: 20px;
+        font: bold;
+        font-weight: 500;
+    }
+    .social {
+        display: none;
+    }
+    .div1{
+        width: 100%;
+    }
+    .div2 {
+        margin-top: -25px;
+        margin-left: 0;
+    }
+    
+}

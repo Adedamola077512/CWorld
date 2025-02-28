@@ -1,0 +1,91 @@
+.flexible-color{
+    background-color: #ffffcc;
+    padding-top: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.flexible{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60.51px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.flexible-per {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.flexible-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.flexible-own {
+    width: 350px;
+    height: 516;
+    gap: 10px;
+    border-radius: 22px;
+    border-width: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    border: 1px solid rgba(0, 0, 0, 1)    
+}
+.flexible-own:hover {
+    background-color: yellow;
+}
+.flexible-own:hover .flexible-bnt {
+    background-color: black;
+    color: white;
+}
+.flexible-bnt {
+    border: none;
+    background-color: yellow;
+    width: 215;
+    height: 60;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 75px;
+}
+.flexible-bnt-team {
+    border: none;
+    background-color: black;
+    width: 215;
+    height: 60;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    margin-left: 75px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .flexible-color{
+        padding-bottom: 30px;
+    }   
+    .flexible{
+    font-size: 35px;
+    line-height: 50px;
+   }
+   .flexible-per{
+    font-size: 19px;
+   }
+   .flexible-flex{
+    flex-direction: column;
+    gap: 20px;
+   }
+   .flexible-own {
+    width: 100%;
+   }
+   .flexible-team{
+    width: 100%;
+   }
+    
+}
