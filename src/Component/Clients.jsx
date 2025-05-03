@@ -8,7 +8,7 @@ import man5 from "../assets/man5.png";
 import man6 from "../assets/man6.png";
 const Clients = () => {
   return (
-    <div className='Clients'>
+    <div className='Clients' id='blog'>
       <div className="container">
         <div>
           <h1 className='clients-h1'>Hear from Our Clients</h1>

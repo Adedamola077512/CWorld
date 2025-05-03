@@ -14,7 +14,7 @@ const Header = () => {
         });
       }, []);
   return (
-    <div className='py-3 into'>
+    <div className='py-3 into' id='home'>
         <div className='container d-flex justify-content-between mt-3 py-5 Digital'>
             <div>
                 <h3 className='launch' data-aos="fade-right">Launch Into Digital <br />Excellence</h3>

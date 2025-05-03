@@ -4,7 +4,7 @@ import { FaArrowCircleDown } from "react-icons/fa";
 import { FaArrowCircleUp } from "react-icons/fa";
 const FAQ = () => {
   return (
-    <div className='container mt-5'>
+    <div className='container mt-5' id='faq'>
         <div className='FAQ-flex'>
             <div>
                 <h1 className='FAQ'>FAQ</h1>

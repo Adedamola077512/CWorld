@@ -51,7 +51,7 @@ const teamMembers = [
 
 const Meet = () => {
   return (
-    <div className="Meet-carousel container mt-5 meet-card">
+    <div className="Meet-carousel container mt-5 meet-card" id='partner'>
       <div className="text-center strength ">
         <h2 className='minds'>Meet Our Creative Minds</h2>
         <p className='lies'>

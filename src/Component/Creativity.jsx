@@ -3,7 +3,7 @@ import clients from '../assets/clients.png'
 import './Creativity.css'
 const Creativity = () => {
   return (
-    <div className="container bg-white py-5 mt-5 ">
+    <div className="container bg-white py-5 mt-5 " id="about">
         <div className="d-flex justify-content-between mt-5 Meets">
             <div>
                 <h1 className='creativity'>Where Creativity Meets</h1>
